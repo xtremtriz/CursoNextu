@@ -1,0 +1,9 @@
+{\rtf1}
+
+Agregacion //composicion de asociacion
+composicion // asociacion que especifica una relacion
+
+Math.random  regresa un valor entre 0-1
+para mas valores pordemos agregar (Math.random *100) por ejemplo
+
+RELACION POR COMPOSICION

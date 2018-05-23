@@ -1,0 +1,14 @@
+void   //no devuelve valor
+
+get  //retorno de valor
+set //modificador
+
+Abstraccion  //Proceso de aislar un elemento de su contexto
+Encapsulamiento  //Encapsular los datos en un mismo lugar
+protege los datos de un objeto contra su modificacion con getter y setter
+Modularidad  //subdividr una aplicacion en partes pequeñas llamadas modulos
+que tienen conexiones con otros modulos
+particionar un programa en componentes individuales
+
+
+
