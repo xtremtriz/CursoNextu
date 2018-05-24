@@ -13,5 +13,5 @@ public int Sumar(){//este metodo retorna un valor de entero
 
 }
 
-this.nombre = nombre; //el this indica el parametro de la variables 
+this.nombre = nombre; //el this indica el atributo de la variables 
 igual a el parametro del constructor
