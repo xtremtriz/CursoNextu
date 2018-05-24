@@ -1,0 +1,17 @@
+public class nombre{//clases
+
+}
+
+public void metodo(Argumentos){//metodos  //void no regresa argumentos
+
+}
+
+//parametros cuando lo declaramos en el metodo
+//argumento cuando enviamos el valor
+
+public int Sumar(){//este metodo retorna un valor de entero
+
+}
+
+this.nombre = nombre; //el this indica el parametro de la variables 
+igual a el parametro del constructor
