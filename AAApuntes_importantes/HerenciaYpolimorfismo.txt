@@ -1,0 +1,2 @@
+herrencia con extends para heredar del padre
+ Polimorfismo: mecanismo que permite definir particularidades
