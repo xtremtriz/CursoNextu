@@ -1,0 +1,11 @@
+ctrl + R    para cambiar datos de una variable
+ctrl + shift + v  para alinear codigo
+
+ctr + shift + linea_abajo o linea_arriba para copiar linea
+
+ctr + f3  para buscar palabras de una misma variable
+
+ctrl + E  para borrar toda la linea
+
+cambiar nombre de auto  
+herramientas -> templates  -> settings
