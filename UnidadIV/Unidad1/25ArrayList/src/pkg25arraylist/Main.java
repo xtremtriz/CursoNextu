@@ -21,11 +21,13 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         ArrayList<Persona> lista= new ArrayList<>();
+        //lista.ensureCapacity(20); //asigna capacidad al arrayList ya que por defecto tiene 11 espacios
         lista.add(new Persona("11","Lalo"));
         lista.add(new Persona("22","Yol"));
         lista.add(new Persona("33","Uriel"));
         
         JOptionPane.showMessageDialog(null, imprimirLista(lista));
+        //System.out.println(lista.size());
         
     }
     private static String imprimirLista(ArrayList<Persona> lista){
