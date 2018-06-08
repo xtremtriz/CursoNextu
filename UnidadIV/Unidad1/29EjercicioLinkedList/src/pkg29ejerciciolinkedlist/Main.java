@@ -34,9 +34,11 @@ public class Main {
             }
             catch (NumberFormatException e) {
                 JOptionPane.showMessageDialog(null,"Este no es un numero "+e);
+                seguir=true;
             }
             catch (NullPointerException nfe) {
                 JOptionPane.showMessageDialog(null,"Este no es un numero "+nfe);
+                seguir=true;
             }
             
             switch (opcion) {
@@ -49,8 +51,7 @@ public class Main {
                     //agregar(lista);
                     break;
                 case 2:  
-                    eliminar(lista);
-                    
+                    eliminar(lista);                    
                     break;                    
                 case 3:                    
                     JOptionPane.showMessageDialog(null, mostrar(lista));
@@ -59,7 +60,11 @@ public class Main {
                     seguir = false;
                     break;
                 default:
-                    throw new AssertionError();
+                    seguir=true;
+                    JOptionPane.showMessageDialog(null, "Error no es opcion valida");
+                    //throw new AssertionError();
+                    
+                    
             }
         } while (seguir==true);        
         //System.out.println(lista);

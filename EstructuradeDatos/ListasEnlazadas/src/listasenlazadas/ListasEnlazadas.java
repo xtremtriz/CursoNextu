@@ -3,21 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg26.pkg3usandometoconstructor;
+package listasenlazadas;
 
 /**
  *
  * @author Ariana
  */
-public class Main {
+public class ListasEnlazadas {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Persona pu = new Persona("Alejandro", 33);
-        pu.Mostrar();
+        Libro libro = new Libro("Retro", "re", "we");
+        System.out.println(libro);
+        Lista lista = new Lista();
+        lista.insertarPrincipio(libro);
+        System.out.println("Es esto: "+lista);
     }
+    
+    
     
 }

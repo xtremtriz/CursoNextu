@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main;
+package pkg28suma2matricesejercicio;
 
 import java.util.Arrays;
 import javax.swing.JOptionPane;
@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author Next University
  */
-public class Actividad2 {
+public class EjercicioNEXTU {
     public static void main(String[] args) {
         int n = 2, m = 3;
         
