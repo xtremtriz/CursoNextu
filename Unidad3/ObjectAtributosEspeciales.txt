@@ -1,0 +1,4 @@
+toString()  = mostrar objeto String
+equals() = comparar si 2 objetos son iguales
+getClass()  = devuelve un objeto class nombre, nombre superclase
+clone() = permite clonar un objeto

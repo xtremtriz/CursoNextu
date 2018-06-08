@@ -1,0 +1,11 @@
+Ordenar
+Buscar
+Insertar
+Eliminar
+Modificar
+
+
+arreglo.lenght// obtiene el tamaño del arreglo en filas
+arreglo[0].length //obtiene el tamaño en columnas
+
+se manejan filas y columnas
